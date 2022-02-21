@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-include 'core'
-include 'demo'
+include ':app', ':merlin'
+rootProject.name = "Android-Merlin"

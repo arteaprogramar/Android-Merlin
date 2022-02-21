@@ -9,11 +9,11 @@ To start using Merlin, add these lines to your module's `build.gradle`:
 
 ```groovy
 repositories {
-    jcenter()
+    maven { url 'https://jitpack.io' }
 }
 
 dependencies {
-    implementation 'com.novoda:merlin:1.2.0'
+    implementation 'com.github.arteaprogramar:Android-Merlin:2.0.1'
 }
 ```
 
@@ -71,4 +71,26 @@ merlin.registerConnectable(new Connectable() {
         // Do something you haz internet!
     }
 });
+```
+
+Check if there is Internet Access
+
+```java
+...
+private MerlinsBeard merlinsBeard;
+
+@Override
+protected void onCreate(Bundle savedInstanceState) {
+    ...
+    merlinsBeard = new MerlinsBeard.Builder().build(this);
+
+    if (merlinsBeard.isConnected()) {
+        // Internet access
+    } else {
+        // Internet not access
+    }
+    ...
+}
+
+...
 ```
