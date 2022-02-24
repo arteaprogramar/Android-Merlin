@@ -1,6 +1,6 @@
-This project is a fork of "Merlin" created by Novoda (Currently Archived Repository)
+### This project is a fork of "Merlin" created by Novoda (Currently Archived Repository)
 
-Merlin Project
+#### Merlin Project
 [https://github.com/novoda/merlin](https://github.com/novoda/merlin)
 
 ![Merlin header image](https://github.com/novoda/merlin/blob/release/header.png)
