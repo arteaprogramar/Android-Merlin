@@ -8,6 +8,13 @@
 Merlin aims to simplify network monitoring. Providing 3 registerable callbacks for network connectivity changes.
 `onConnect()` , `onDisconnect()` and `onBind(NetworkStatus networkStatus)`.
 
+## Some things
+
+- This repository removes versions of Merlin with RxJava support.
+- It has been tested on Android 12 and works fine.
+- Changed some things.
+- This repository aims to rescue a good project.
+
 ## Adding to your project
 
 To start using Merlin, add these lines to your module's `build.gradle`:
