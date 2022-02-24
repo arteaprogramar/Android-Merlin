@@ -1,3 +1,8 @@
+This project is a fork of "Merlin" created by Novoda (Currently Archived Repository)
+
+Merlin Project
+[https://github.com/novoda/merlin](https://github.com/novoda/merlin)
+
 ![Merlin header image](https://github.com/novoda/merlin/blob/release/header.png)
 
 Merlin aims to simplify network monitoring. Providing 3 registerable callbacks for network connectivity changes.
