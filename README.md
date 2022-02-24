@@ -25,7 +25,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.arteaprogramar:Android-Merlin:2.0.3'
+    implementation 'com.github.arteaprogramar:Android-Merlin:2.1.0'
 }
 ```
 
